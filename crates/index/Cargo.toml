@@ -1,0 +1,19 @@
+[package]
+publish = false
+name = "grep-index"
+version = "0.0.1"  #:version
+authors = ["Andrew Gallant <jamslam@gmail.com>"]
+description = """
+Grep, but with an index.
+"""
+documentation = "https://docs.rs/grep-index"
+homepage = "https://github.com/BurntSushi/ripgrep"
+repository = "https://github.com/BurntSushi/ripgrep"
+readme = "README.md"
+keywords = ["regex", "grep", "search", "index", "ngram"]
+license = "Unlicense/MIT"
+edition = "2018"
+
+[dependencies]
+bstr = "0.2"
+regex-syntax = "0.6.14"

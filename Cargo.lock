@@ -169,6 +169,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "grep-index"
+version = "0.0.1"
+dependencies = [
+ "bstr 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "regex-syntax 0.6.14 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "grep-matcher"
 version = "0.1.3"
 dependencies = [
